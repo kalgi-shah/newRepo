@@ -1,0 +1,79 @@
+{
+  "name": "StateMachine",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.Testing.Activities": "[1.2.5]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]",
+    "UiPath.WebAPI.Activities": "[1.6.0]",
+    "UiPathTeam.SharePoint.Activities": "[1.5.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.70694642",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d45c5d8d-9f97-4321-bf7a-fc4b6824813b",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "258fef71-a09b-4c0f-bf9c-ef8c0d6da6ee",
+        "fileName": "TestCase\\TC002.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8659e4b3-a371-4656-be85-0905297a0913",
+        "fileName": "TestCase\\TC001.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestCase\\TC002.xaml",
+      "uniqueId": "258fef71-a09b-4c0f-bf9c-ef8c0d6da6ee",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCase\\TC001.xaml",
+      "uniqueId": "8659e4b3-a371-4656-be85-0905297a0913",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
